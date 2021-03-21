@@ -1,4 +1,10 @@
 window.addEventListener("load", function(){
+  const moreLink = document.getElementById('more_text_link');
+  const moreContent = document.getElementById('more_text_content');
+  moreLink.addEventListener('click', function(){
+    moreContent.style.display = 'initial';
+    moreLink.style.display = 'none';
+  })
 
   // Here is some pseudo-code to help you get started:
 
